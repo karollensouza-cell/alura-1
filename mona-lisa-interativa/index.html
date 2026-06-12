@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mona Lisa Interativa - P5.js</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #8B7355 0%, #D4A574 100%);
+            font-family: 'Georgia', serif;
+        }
+        
+        #p5-container {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+            padding: 20px;
+        }
+        
+        .info {
+            text-align: center;
+            color: #333;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        
+        .info h2 {
+            margin: 10px 0 5px 0;
+            color: #8B4513;
+        }
+        
+        .info p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div id="p5-container"></div>
+        <div class="info">
+            <h2>Mona Lisa Interativa</h2>
+            <p>Mova o mouse para ver os olhos acompanharem seu cursor</p>
+        </div>
+    </div>
+    
+    <script src="sketch.js"></script>
+</body>
+</html>
